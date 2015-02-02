@@ -33,7 +33,7 @@ layout: default
                         <%- post.description %>
                     </h3>
                 </a>
-                <p class="post-meta">Posted by <a href="#"><%- post.author %></a> on <%- post.date %></p>
+                <p class="post-meta">Posted by <a href="#"><%- post.author %></a> on <%- post.day %></p>
             </div>
             <hr>
           <% end %>

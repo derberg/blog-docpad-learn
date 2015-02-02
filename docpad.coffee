@@ -42,6 +42,17 @@ docpadConfig = {
           {basename:{$ne: "index"},
           relativeOutDirPath:"posts"},
           [filename:-1])
+
+  # ==================================
+  # Plugins
+
+  # specific configuration for docpad plugins
+  plugins:
+
+    # plugin for github pages static content deployment
+    ghpages:
+      deployRemote: 'target'
+      deployBranch: 'master'
 }
 
 # Export the DocPad Configuration

@@ -9,6 +9,7 @@
   "dependencies": {
     "docpad": "~6.63.3",
     "docpad-plugin-eco": "~2.1.0",
+    "docpad-plugin-ghpages": "~2.4.3",
     "docpad-plugin-marked": "~2.2.1"
   },
   "main": "node_modules/docpad/bin/docpad-server",

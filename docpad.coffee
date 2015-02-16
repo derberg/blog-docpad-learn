@@ -43,6 +43,15 @@ docpadConfig = {
           relativeOutDirPath:"posts"},
           [filename:-1])
 
+  # =================================
+  # Plugins
+
+  # all docpad plugins custom config
+  plugins:
+    #plugin for github pages deployment
+    ghpages:
+      deployRemote: 'target'
+      deployBranch: 'master'
 }
 
 # Export the DocPad Configuration

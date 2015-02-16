@@ -10,9 +10,9 @@ It is a project based on DocPad and other technologies. With this project I'm bu
 
 # Used Technologies
 
-* DocPad to generate the blog static page
-*
-* Bootstrap to have a super responsive design
+* [DocPad](https://docpad.org/) to generate the blog static page
+* [CleanBlog Theme](http://startbootstrap.com/template-overviews/clean-blog/)
+* [Bootstrap](http://getbootstrap.com/) to have a super responsive design
 
 # License
 

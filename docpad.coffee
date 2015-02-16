@@ -15,7 +15,7 @@ docpadConfig = {
 
       # Scripts
       scripts: [
-        "/js/jquery.js"
+        "/js/jquery.min.js"
         "/js/bootstrap.min.js"
         "/js/clean-blog.min.js"]
 

@@ -41,6 +41,7 @@ docpadConfig = {
         .findAllLive(
           {basename:{$ne: "index"},
           relativeOutDirPath:"posts"},
+          title:{$exists:true},
           [filename:-1])
 
   # =================================

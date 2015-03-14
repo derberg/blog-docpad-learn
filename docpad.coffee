@@ -3,7 +3,6 @@
 
 # Define the DocPad Configuration
 docpadConfig = {
-
   # =================================
   # Templates
 
@@ -40,8 +39,8 @@ docpadConfig = {
       @getCollection("html")
         .findAllLive(
           {basename:{$ne: "index"},
-          relativeOutDirPath:"posts"},
-          title:{$exists:true},
+          relativeOutDirPath:"posts",
+          title:{$exists:true}},
           [filename:-1])
 
   # =================================
@@ -53,6 +52,8 @@ docpadConfig = {
     ghpages:
       deployRemote: 'target'
       deployBranch: 'master'
+
+
 }
 
 # Export the DocPad Configuration

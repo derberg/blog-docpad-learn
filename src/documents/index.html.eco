@@ -33,7 +33,12 @@ layout: default
                         <%- post.description %>
                     </h3>
                 </a>
-                <p class="post-meta">Posted by <a href="#"><%- post.author %></a> on <%- post.day %></p>
+                <p>
+                  <% if post.contentRenderedWithoutLayouts isnt null :%>
+                    <%- @getCuttedContent(post.contentRenderedWithoutLayouts) %>
+                  <% end %>
+                </p>
+                <p class="post-meta">Posted by <a href="/about.html"><%- post.author %></a> on <%- post.day %></p>
             </div>
             <hr>
           <% end %>
@@ -48,5 +53,3 @@ layout: default
         </div>
     </div>
 </div>
-
-<hr>

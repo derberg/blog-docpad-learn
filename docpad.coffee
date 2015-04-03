@@ -25,7 +25,7 @@ docpadConfig = {
 
     #helpers
     getCuttedContent: (content) ->
-      content.substr(0, 300);
+      content.substr(0, 250);
 
 	# =================================
 	# Collections
@@ -34,7 +34,7 @@ docpadConfig = {
   # that are used to gather specific set of files
   collections:
 
-    # Get all blogposts sorted by order meta
+    # Get all blogposts sorted by filename
     posts: ->
       @getCollection("html")
         .findAllLive(

@@ -49,6 +49,7 @@ docpadConfig = {
 
 
     #helper for listing of all blogs
+    #Do not used any more, just keep it in the code for a reference for others
     getCuttedContent: (content) ->
       content.substr(0, 250);
 

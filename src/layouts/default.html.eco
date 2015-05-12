@@ -92,6 +92,11 @@
                             </a>
                         </li>
                     </ul>
+                    <div class='foot'>
+                      <center>
+                        I'm using Google Analytics and Inspectlet to track </br>behaviour of my readers to learn how they interact with my blog.
+                      </center>
+                    </div>
                 </div>
             </div>
         </div>

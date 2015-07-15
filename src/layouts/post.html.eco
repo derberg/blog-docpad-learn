@@ -11,7 +11,7 @@ layout: default
                 <div class="post-heading">
                     <h1><%- @document.title %></h1>
                     <h2 class="subheading"><%- @document.description %></h2>
-                    <span class="meta">Posted by <a href="#"><%- @document.author %></a> on <%- @document.day %></span>
+                    <span class="meta">Posted by <a href="https://twitter.com/derberq"><%- @document.author %></a> on <%- @document.day %></span>
                 </div>
             </div>
         </div>
